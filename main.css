@@ -93,3 +93,9 @@ aside:hover h3 {
         0 0 5px var(--color-linear-gradient-end),
         5px 2px var(--color-neon-green);
 }
+
+section:active h2,
+#contacts:active h2,
+aside:active h3 {
+    text-shadow: none;
+}
